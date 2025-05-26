@@ -5,9 +5,15 @@ font-family: comic sans ms;
 h1 {
 color: aquamarine;
 }
+#subrayado {
+text-decoration: underline;
+}
 h2 {
 color: coral;
 font-size: 25px;
+}
+.negrita {
+font-weight: bold;
 }
 h3 {
 color: darkcyan;
@@ -24,6 +30,7 @@ li {
 a {
     font-size: 15px;
     color: blue;
+    font-family: Arial, Helvetica, sans-serif;
 }
 a:visited {
     color: rgb(128, 0, 11);
