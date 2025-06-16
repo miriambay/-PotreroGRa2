@@ -1,0 +1,59 @@
+/*NO MODIFICAR*/
+
+body {
+    background-color: #fff;
+    color: #333;
+    font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding: 1em;
+    margin: 0;
+}
+
+ul {
+    width: 800px;
+    height: 490px;
+    list-style:none;
+    padding: 0;
+    margin: 0;
+    border: 2px solid #4D7298;
+}
+
+li {
+    background-color: #4D7298;
+    border: 2px solid #77A6B6;
+    border-radius: .5em;
+    color: #fff;
+    padding: .5em;
+    margin: .5em;
+}
+
+/*DESDE ACA MODIFICAR*/
+/* Modificar los siguientes elementos para que se vea como en la imagen de la consigna */
+ul {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+}
+
+.l1 {
+    display: flex;
+    order: -1;
+    align-self: center;
+}
+
+.l2 {
+    display: flex;
+    order: 0;
+    align-self: flex-end;
+}
+
+.l3,.l4 {
+    display: flex;
+    align-self: stretch;
+}
+
+.l5 {
+    display: flex;
+    order: -2;
+    align-self: flex-start;
+}
+
